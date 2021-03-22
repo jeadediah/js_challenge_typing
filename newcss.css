@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{max-width: 100%;}
+
+
+.container{
+    width: 1300px;
+    margin: 0 auto; 
+    text-align: center;   
+}
+
+figure{
+    width: 300px;
+    height: 150px;
+}
+
+
+h2{
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.opasac{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article.kartice{
+ flex-basis: 23%;
+ margin-bottom: 40px;
+}
+
+button.pozicija{
+    width: 100%;
+}
+button.start {
+    width: 50%;
+    background-color: yellow;
+    margin-bottom: 30px;
+   
+}
+
+div.zadatak{
+    margin: 0 auto;
+    width: 45%;
+    outline: 1px solid gray;
+    padding: 20px 50px;
+   display: none;
+}
+
